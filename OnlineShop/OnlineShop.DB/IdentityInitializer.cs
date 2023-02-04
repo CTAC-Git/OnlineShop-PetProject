@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using OnlineShop.Db.Models;
-using System.Threading.Tasks;
 
 namespace OnlineShop.Db
 {

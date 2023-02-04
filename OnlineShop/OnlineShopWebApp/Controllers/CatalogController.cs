@@ -1,12 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using OnlineShop.Db;
-using OnlineShop.Db.Models;
-using OnlineShopWebApp.Helpers;
 using OnlineShopWebApp.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace OnlineShopWebApp.Controllers

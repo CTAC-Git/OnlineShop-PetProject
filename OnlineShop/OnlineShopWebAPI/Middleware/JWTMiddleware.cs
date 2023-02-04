@@ -1,14 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Diagnostics;
-using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.IdentityModel.Tokens;
-using Newtonsoft.Json.Linq;
 using OnlineShop.Db.Models;
-using OnlineShopWebAPI;
-using OnlineShopWebAPI.Models;
 using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
 using System.Text;
 
 namespace OnlineShopWebAPI.Middleware

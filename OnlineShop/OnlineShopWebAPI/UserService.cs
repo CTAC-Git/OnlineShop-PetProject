@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
 using OnlineShop.Db.Models;
 using OnlineShopWebAPI.Models;
-using OnlineShopWebApp.Models;
-using System.Security.Cryptography;
 
 namespace OnlineShopWebAPI
 {

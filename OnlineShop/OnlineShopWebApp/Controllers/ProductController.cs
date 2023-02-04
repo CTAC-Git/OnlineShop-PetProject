@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using OnlineShop.Db;
-using OnlineShopWebApp.Helpers;
 using OnlineShopWebApp.Models;
 using System;
 using System.Threading.Tasks;

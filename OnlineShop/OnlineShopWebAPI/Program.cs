@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using OnlineShop.Db;
@@ -10,9 +8,7 @@ using OnlineShop.Db.Models;
 using OnlineShopWebAPI;
 using OnlineShopWebAPI.Middleware;
 using OnlineShopWebApp;
-using OnlineShopWebApp.Helpers;
 using System.Text;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 public class Program
 {

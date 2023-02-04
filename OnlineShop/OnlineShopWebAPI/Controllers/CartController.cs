@@ -1,19 +1,8 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using OnlineShop.Db;
 using OnlineShop.Db.Models;
 using OnlineShopWebApp;
-using OnlineShopWebApp.Helpers;
-using OnlineShopWebApp.Models;
-using OnlineShopWebApp.Views.Shared.Components.Cart;
-using System;
-using System.Net;
-using System.Net.Mail;
-using System.Security.Claims;
-using System.Threading.Tasks;
 
 namespace OnlineShopWebAPI.Controllers
 {

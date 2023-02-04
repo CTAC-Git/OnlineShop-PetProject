@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using OnlineShop.Db.Models;
 using OnlineShopWebAPI.Models;
-using OnlineShopWebApp.Models;
 
 namespace OnlineShopWebAPI
 {

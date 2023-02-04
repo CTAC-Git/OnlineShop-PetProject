@@ -2,14 +2,11 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Query.Internal;
 using OnlineShop.Db;
 using OnlineShop.Db.Models;
-using OnlineShopWebApp.Helpers;
 using OnlineShopWebApp.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
