@@ -49,12 +49,13 @@ namespace OnlineShopWebApp.Controllers
                         CartItems = cart.Items,
                     };
                     var price = 0;
-                    var promo = await databaseContext.Promocodes.FirstOrDefaultAsync(x => x.Text == user.PromocodeText);
                     foreach (var item in cart.Items)
                     {
                         price += item.Product.Cost * item.Count;
                     }
-                    price = price - (price * promo.Discount / 100);
+                    var promo = await databaseContext.Promocodes.FirstOrDefaultAsync(x => x.Text == user.PromocodeText);
+                    if (promo != null) 
+                        price = price - (price * promo.Discount / 100);
                     order.FullPrice = price;
                     await ordersRepository.SaveOrderAsync(order);
                     await cartsRepository.RemoveCartAsync(cart);
